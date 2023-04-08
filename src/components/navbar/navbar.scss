@@ -1,0 +1,23 @@
+.navbar{
+    margin-top: 50px;
+    
+
+&_container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu_link{
+    color: black; 
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+}
+

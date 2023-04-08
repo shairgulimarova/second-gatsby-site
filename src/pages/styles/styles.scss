@@ -1,0 +1,32 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+  *, 
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Kaushan script', sans-serif;
+    background-image: url('../../images/bg.svg');
+    
+  }
+  a {
+    text-decoration: none;
+    color: #154599;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
